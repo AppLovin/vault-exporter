@@ -1,4 +1,4 @@
-DOCKER_IMAGE_NAME ?= grapeshot/vault_exporter
+DOCKER_IMAGE_NAME ?= gcr.io/strategic-atom-700/vault_exporter
 
 vault_exporter: main.go
 	go build -o $@ ./
